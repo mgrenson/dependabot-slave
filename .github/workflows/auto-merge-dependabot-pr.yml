@@ -5,8 +5,8 @@ on: pull_request
 jobs:
   auto-merge:
     runs-on: ubuntu-latest
-    name: Merge pull request
+    name: Dependabot Auto Merge
     steps:
-      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+      - uses: ahmadnassri/action-dependabot-auto-merge@v2.2.0
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
