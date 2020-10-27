@@ -10,7 +10,7 @@ jobs:
 
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@master
-        if: github.actor == 'dependabot[bot]' || github.actor == 'dependabot-preview[bot]'
+        #if: github.actor == 'dependabot[bot]' || github.actor == 'dependabot-preview[bot]'
         with:
           message: '@dependabot rebase'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
