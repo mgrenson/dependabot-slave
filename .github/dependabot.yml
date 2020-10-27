@@ -11,3 +11,6 @@ updates:
       interval: "daily"
       time: "16:40"
       timezone: "Europe/Brussels"
+      
+  - name: Dependabot Auto Merge
+    uses: ahmadnassri/action-dependabot-auto-merge@v2.2.0
