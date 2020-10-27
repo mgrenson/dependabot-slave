@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Merge pull request
     steps:
-      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+      - uses: ahmadnassri/action-dependabot-auto-merge@v2.2.0
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
