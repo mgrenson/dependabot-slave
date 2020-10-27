@@ -15,6 +15,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
   automerge:
     name: Auto merge after successful checks
+    needs: autoapprove
     runs-on: ubuntu-latest
     steps:
       - name: Auto merge
