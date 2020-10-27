@@ -12,5 +12,5 @@ jobs:
         uses: thollander/actions-comment-pull-request@master
         if: github.actor == 'dependabot[bot]' || github.actor == 'dependabot-preview[bot]'
         with:
-          message: '@dependabot rebase'
+          message: '@dependabot merge'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
