@@ -1,0 +1,3 @@
+[submodule "dependabot-main"]
+	path = dependabot-main
+	url = git@github.com:mgrenson/dependabot-main.git
