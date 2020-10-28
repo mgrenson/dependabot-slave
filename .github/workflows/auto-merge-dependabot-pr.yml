@@ -23,6 +23,6 @@ jobs:
               owner: context.payload.repository.owner.login,
               repo: context.payload.repository.name,
               pull_number: context.payload.pull_request.number,
-              merge_method: rebase
+              merge_method: 'rebase'
             })
           github-token: ${{github.token}}
